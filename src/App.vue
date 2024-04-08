@@ -14,12 +14,19 @@ import Footer from './components/Footer.vue';
 
 
 <template>
-  <Header />
-  <Main />
-  <Footer />
+  <div class="container">
+    <Header />
+    <Main />
+    <Footer />
+  </div>
 </template>
 
 
 <style lang="scss">
 @use './assets/scss/main.scss';
+
+.container{
+  background-color: red;
+  max-width: 70%;
+}
 </style>
