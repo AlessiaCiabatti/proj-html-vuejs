@@ -6,12 +6,11 @@
 
 
 <template>
-  <div class="container">
-    MAIN
-  </div>
 </template>
 
 
 <style lang="scss">
+
+@use '../assets/scss/partials/variables' as *;
 
 </style>
