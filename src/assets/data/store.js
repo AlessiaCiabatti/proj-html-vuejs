@@ -134,7 +134,7 @@ export const store = reactive({
       courses: [
         {
           text: 'Download free E-book',
-          iocn: 'fa-solid fa-arrow-right',
+          icon: 'fa-solid fa-arrow-right',
         },
       ],
       pace: [
@@ -149,6 +149,25 @@ export const store = reactive({
     },
   ],
 
+  // -----> ARRAY TODAY
+  arrayToday: [
+    {
+      title: 'Idea Discussion',
+      paragraph: 'Get teamed up with the specialists who work and teach coding for years at famous univerities.'
+    },
+    {
+      title: 'Web development',
+      paragraph: 'Learn to start building a webpage from scratch. You decide your own pace, course and speed.'
+    },
+    {
+      title: 'System Administration',
+      paragraph: 'Learners are encouraged to study the mechanism and structure of system administration.'
+    },
+    {
+      title: 'Graphic Design',
+      paragraph: 'Have a passion for graphics and arts? Show your talents with confidence and self-assertiveness.'
+    },
+  ]
 
   /**
     coursesPrice: [
