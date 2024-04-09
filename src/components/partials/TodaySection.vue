@@ -72,7 +72,7 @@
 @use '../../assets/scss/partials/variables' as *;
 
 .back-today{
-  background-color: $bg-lightgray;
+  background-color: $bg-white;
   .container{
     margin-top: 95px;
     .title{

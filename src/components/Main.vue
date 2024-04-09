@@ -1,9 +1,11 @@
 <script>
 import TodaySection from './partials/TodaySection.vue';
+import StunningSection from './partials/StunningSection.vue';
 
   export default {
     components:{
       TodaySection,
+      StunningSection,
     }
     
   }
@@ -12,6 +14,7 @@ import TodaySection from './partials/TodaySection.vue';
 
 <template>
     <TodaySection />
+    <StunningSection />
 </template>
 
 
