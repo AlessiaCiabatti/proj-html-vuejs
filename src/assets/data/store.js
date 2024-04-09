@@ -33,8 +33,7 @@ export const store = reactive({
   // -----> ARRAY FOOTER
   arrayFooter: [
     {
-      title: 'Address',
-      items: [
+      address: [
         {
           text: 'Shop382 NE 191st St # 87394 Miami, FL 33179-3899',
           href: '#'
@@ -50,8 +49,27 @@ export const store = reactive({
       ]
     },
     {
-      title: 'Explore',
-      items: [
+      icon: [
+        {
+          text: 'fa-brands fa-square-facebook',
+          href: '#'
+        },
+        {
+          text: 'fa-brands fa-twitter',
+          href: '#'
+        },
+        {
+          text: 'fa-brands fa-instagram',
+          href: '#'
+        },
+        {
+          text: 'fa-brands fa-linkedin',
+          href: '#'
+        },
+      ]
+    },
+    {
+      explore: [
         {
           text: 'Start here',
           href: '#'
@@ -83,8 +101,7 @@ export const store = reactive({
       ]
     },
     {
-      title: 'Information',
-      items: [
+      information: [
         {
           text: 'Membership',
           href: '#'
@@ -104,5 +121,8 @@ export const store = reactive({
       ]
     },
   ],
+
+  // -----> ARRAY ICONE FOOTER
+
 
 })

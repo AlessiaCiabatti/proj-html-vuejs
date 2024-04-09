@@ -22,24 +22,29 @@ import {store} from '../assets/data/store'
         <h6>Address</h6>
         <div class="info">
           <ul>
-            <li>
-              <a href="#">382 NE 191st St # 87394 Miami, FL 33179-3899</a>
+            <li v-for="(item, index) in store.arrayFooter[0].address"
+            :key="`footer-address-${index}`">
+              <a :href="item.href">{{ item.text }}</a>
             </li>
-            <li>
+            <!-- <li>
               <a href="#">+1(305) 547-9909 (9AM - 5PM EST, Monday - Friday)</a>
             </li>
             <li>
               <a href="#">support@coach.com</a>
-            </li>
+            </li> -->
           </ul>
         </div>
 
         <div class="icon-footer">
-          <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <div>
+          <a :href="item.href" v-for="(item, index) in store.arrayFooter[1].icon"
+          :key="`footer-icone-${index}`"><i :class="item.text"></i></a>
+            <!-- <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a> -->
+          </div>
         </div>
+
       </div>
 
       <div class="small">
