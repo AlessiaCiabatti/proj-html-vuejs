@@ -123,31 +123,31 @@ export const store = reactive({
   ],
 
   // -----> ARRAY BUTTON
-  arrayBtn: [
-    {
-      hero: [
-        {
-          icon: 'fa-regular fa-download',
-          text: 'Download free E-book'
-        },
-      ],
-      courses: [
-        {
-          text: 'Download free E-book',
-          icon: 'fa-solid fa-arrow-right',
-        },
-      ],
-      pace: [
-          'Get started for free'
-      ],
-      mobile: [
-        'Download Our App'
-      ],
-      events: [
-        'Get ticket'
-      ],
-    },
-  ],
+  // arrayBtn: [
+  //   {
+  //     hero: [
+  //       {
+  //         icon: 'fa-regular fa-download',
+  //         text: 'Download free E-book'
+  //       },
+  //     ],
+  //     courses: [
+  //       {
+  //         text: 'Download free E-book',
+  //         icon: 'fa-solid fa-arrow-right',
+  //       },
+  //     ],
+  //     pace: [
+  //         'Get started for free'
+  //     ],
+  //     mobile: [
+  //       'Download Our App'
+  //     ],
+  //     events: [
+  //       'Get ticket'
+  //     ],
+  //   },
+  // ],
 
   // -----> ARRAY TODAY
   arrayToday: [

@@ -24,10 +24,9 @@ import { store } from '../../assets/data/store';
       <div class="my_bgone">
         <h1>Complete Your Dreams in JavaS Programming</h1>
         <p>Learn any coding program in distance and for a reasonable fee. You don't have to struggle alone, you,ve got our assistance and help</p>
-        <button type="button" class="btn btn-primary"
-          v-for="item in store.arrayBtn[0].hero">
-          <i :class="item.icon"></i>
-          <span>{{ item.text }}</span>
+        <button type="button" class="btn btn-primary">
+          <i class="fa-solid fa-download"></i>
+          <span>Download free E-book</span>
         </button>
       </div>
 

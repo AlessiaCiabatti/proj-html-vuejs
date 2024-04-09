@@ -1,14 +1,17 @@
 <script>
+import TodaySection from './partials/TodaySection.vue';
+
   export default {
+    components:{
+      TodaySection,
+    }
     
   }
 </script>
 
 
 <template>
-  <div class="container">
-    MAIN
-  </div>
+    <TodaySection />
 </template>
 
 
