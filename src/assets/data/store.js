@@ -122,7 +122,60 @@ export const store = reactive({
     },
   ],
 
-  // -----> ARRAY ICONE FOOTER
+  // -----> ARRAY BUTTON
+  arrayBtn: [
+    {
+      hero: [
+        {
+          icon: 'fa-regular fa-download',
+          text: 'Download free E-book'
+        },
+      ],
+      courses: [
+        {
+          text: 'Download free E-book',
+          iocn: 'fa-solid fa-arrow-right',
+        },
+      ],
+      pace: [
+          'Get started for free'
+      ],
+      mobile: [
+        'Download Our App'
+      ],
+      events: [
+        'Get ticket'
+      ],
+    },
+  ],
 
+
+  /**
+    coursesPrice: [
+        {
+          symbol: '&#36;',
+          price: 40.00
+        },
+        {
+          price: 'Free'
+        },
+        {
+          symbol: '&#36;',
+          price: 19.00
+        },
+        {
+          symbol: '&#36;',
+          price: 26.00
+        },
+        {
+          symbol: '&#36;',
+          price: 39.00
+        },
+        {
+          symbol: '&#36;',
+          price: 59.00
+        },
+      ],
+   */
 
 })

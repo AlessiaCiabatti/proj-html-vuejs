@@ -50,27 +50,44 @@ import {store} from '../assets/data/store'
       <div class="small">
         <h6>Explore</h6>
         <div class="info">
-          <a href="#">Start here</a>
-          <a href="#">Blog</a>
-          <a href="#">Abaut us</a>
+          <ul>
+            <li v-for="(item, index) in store.arrayFooter[2].explore"
+            :key="`footer-explore-${index}`">
+              <a :href="item.href">{{ item.text }}</a>
+            </li>
+          </ul>
+          
+          <!-- <a href="#">Blog</a>
+          <a href="#">Abaut us</a> -->
         </div>
       </div>
 
       <div class="small">
         <div class="info">
-          <a href="#">Success story</a>
-          <a href="#">Courses</a>
-          <a href="#">Contact us</a>
+          <ul>
+            <li v-for="(item, index) in store.arrayFooter[3].items"
+            :key="`footer-items-${index}`">
+              <a :href="item.href">{{ item.text }}</a>
+            </li>
+          </ul>
+
+          <!-- <a href="#">Courses</a>
+          <a href="#">Contact us</a> -->
         </div>
       </div>
 
       <div class="small">
         <h6>Information</h6>
         <div class="info">
-          <a href="#">Membership</a>
-          <a href="#">Purchase guide</a>
+          <ul>
+            <li v-for="(item, index) in store.arrayFooter[4].information"
+            :key="`footer-information-${index}`">
+              <a :href="item.href">{{ item.text }}</a>
+            </li>
+          </ul>
+          <!-- <a href="#">Purchase guide</a>
           <a href="#">Privacy policy</a>
-          <a href="#">Terms of service</a>
+          <a href="#">Terms of service</a> -->
         </div>
       </div>
     </div>

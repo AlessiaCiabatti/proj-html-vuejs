@@ -100,8 +100,10 @@ nav.navbar.navbar-expand-lg {
       left: 12px;
       span{
         position: absolute;
-        right: 4px;
+        right: 5px;
+        top: 1px;
         transform: translateY(-12%);
+        color: white;
       }
     }
   }

@@ -1,5 +1,9 @@
 @use './variables' as *;
 
 body {
-  font-family: sans-serif;
+  font-family: 'Nunito Sans Variable', sans-serif;
+}
+
+.container{
+  max-width: 65%;
 }
