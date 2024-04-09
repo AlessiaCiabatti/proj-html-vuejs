@@ -1,6 +1,16 @@
 <script>
+import {store} from '../assets/data/store'
+
   export default {
-    
+    data(){
+      return{
+        store
+      }
+    },
+
+    props:{
+      arrayFooter: Array,
+    }
   }
 </script>
 
@@ -10,9 +20,20 @@
     <div class="d-flex">
       <div class="big">
         <h6>Address</h6>
-        <a href="#">382 NE 191st St # 87394 Miami, FL 33179-3899</a>
-        <a href="#">+1(305) 547-9909 (9AM - 5PM EST, Monday - Friday)</a>
-        <a href="#">support@coach.com</a>
+        <div class="info">
+          <ul>
+            <li>
+              <a href="#">382 NE 191st St # 87394 Miami, FL 33179-3899</a>
+            </li>
+            <li>
+              <a href="#">+1(305) 547-9909 (9AM - 5PM EST, Monday - Friday)</a>
+            </li>
+            <li>
+              <a href="#">support@coach.com</a>
+            </li>
+          </ul>
+        </div>
+
         <div class="icon-footer">
           <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
           <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -23,23 +44,29 @@
 
       <div class="small">
         <h6>Explore</h6>
-        <a href="#">Start here</a>
-        <a href="#">Blog</a>
-        <a href="#">Abaut us</a>
+        <div class="info">
+          <a href="#">Start here</a>
+          <a href="#">Blog</a>
+          <a href="#">Abaut us</a>
+        </div>
       </div>
 
       <div class="small">
-        <a href="#">Success story</a>
-        <a href="#">Courses</a>
-        <a href="#">Contact us</a>
+        <div class="info">
+          <a href="#">Success story</a>
+          <a href="#">Courses</a>
+          <a href="#">Contact us</a>
+        </div>
       </div>
 
       <div class="small">
         <h6>Information</h6>
-        <a href="#">Membership</a>
-        <a href="#">Purchase guide</a>
-        <a href="#">Privacy policy</a>
-        <a href="#">Terms of service</a>
+        <div class="info">
+          <a href="#">Membership</a>
+          <a href="#">Purchase guide</a>
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms of service</a>
+        </div>
       </div>
     </div>
 
@@ -60,12 +87,18 @@
     font-size: 0.9rem;
     color: $color-i-footer;
   }
-  .big, .small {
+  .big, .small, .info {
     display: flex;
     flex-direction: column;
     h6 {
       font-weight: bold;
       font-size: 0.9rem;
+    }
+    ul{
+      padding-left: 0px;
+      li{
+        list-style: none;
+      }
     }
     a {
       color: $font-bottom;

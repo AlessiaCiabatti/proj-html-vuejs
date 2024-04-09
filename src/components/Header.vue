@@ -38,21 +38,6 @@ import {store} from '../assets/data/store';
           class="nav-item menu">
             <a class="nav-link menu" :href="item.href">{{item.text}} <i class="fa-solid fa-chevron-down"></i></a>
           </li>
-          <!-- <li class="nav-item menu">
-            <a class="nav-link" href="#">Pages <i class="fa-solid fa-chevron-down"></i></a>
-          </li>
-          <li class="nav-item menu">
-            <a class="nav-link" href="#">Courses <i class="fa-solid fa-chevron-down"></i></a>
-          </li>
-          <li class="nav-item menu">
-            <a class="nav-link disabled" aria-disabled="true">Features <i class="fa-solid fa-chevron-down"></i></a>
-          </li>
-          <li class="nav-item menu">
-            <a class="nav-link disabled" aria-disabled="true">Blog <i class="fa-solid fa-chevron-down"></i></a>
-          </li>
-          <li class="nav-item menu">
-            <a class="nav-link disabled shop" aria-disabled="true">Shop <i class="fa-solid fa-chevron-down"></i></a>
-          </li> -->
           <li class="nav-item">
             <a class="nav-link disabled" aria-disabled="true">
               <div class="carrello">
