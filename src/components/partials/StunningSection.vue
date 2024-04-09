@@ -46,6 +46,7 @@ import Accordion from './Accordion.vue';
   background-color: $bg-white;
   .container {
     margin-top: 100px;
+    margin-bottom: 100px;
     // position: relative;
     .my_bgtwo {
       position: relative;
