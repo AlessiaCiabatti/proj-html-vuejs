@@ -10,7 +10,7 @@
     <div class="container">
 
       <div class="d-flex flex-column title">
-        <p>PEOPLE ARE PREISING MAXCOACH</p>
+        <p class="top">PEOPLE ARE PREISING MAXCOACH</p>
         <h2>
           What make they <span class="span">love us?</span>
         </h2>
@@ -51,7 +51,17 @@
           </div>
         </div>
         
-    </div>
+      </div>
+
+      <div class="d-flex flex-column align-items-center">
+        <p class="p-bottom">Start today for getting <span class="certification">Online Certification</span></p>
+        <h3>
+          You can be your guiding star with our help!
+        </h3>
+        <button type="button" class="btn btn-primary">
+          <span>Get started now</span>
+        </button>
+      </div>
 
     </div>
   </section>
@@ -63,6 +73,32 @@
 
 .back-loveus{
   background-color: $color-ticket;
+  .p-bottom{
+    color: $color-font;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    .certification{
+      color: $btn-green;
+      font-weight: bold;
+    }
+  }
+  h3{
+      color: $color-font;
+      font-weight: bold;
+    }
+    button.btn.btn-primary{
+    background-color: $btn-green;
+    border: none;
+    padding: 10px 55px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    span{
+      color: $bg-white;
+      font-weight: $f-bold;
+      }
+    }
+
   .title{
     margin-bottom: 100px;
       align-items: center;
