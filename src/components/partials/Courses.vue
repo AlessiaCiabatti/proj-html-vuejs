@@ -6,7 +6,7 @@
 
 
 <template>
-  <section>
+  <section class="back-course">
     <div class="container">
 
         <div class="d-flex flex-column title">
@@ -18,7 +18,7 @@
 
 
       <div class="d-flex justify-content-between first-row">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 22rem;">
           <div class="structure">
             <img src="../../assets/images/course-02-480x298.jpg" class="card-img-top" alt="...">
             <div class="price d-flex justify-content-center ">
@@ -44,7 +44,7 @@
           </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 22rem;">
           <div class="structure">
             <img src="../../assets/images/course-02-480x298.jpg" class="card-img-top" alt="...">
             <div class="price d-flex justify-content-center ">
@@ -70,7 +70,7 @@
           </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 22rem;">
           <div class="structure">
             <img src="../../assets/images/stock-full-hd-04-480x298.jpg" class="card-img-top" alt="...">
             <div class="price d-flex justify-content-center ">
@@ -100,7 +100,7 @@
       <!-- ----- -->
 
       <div class="d-flex justify-content-between second-row">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 22rem;">
           <div class="structure">
             <img src="../../assets/images/stock-full-hd-06-480x298.jpg" class="card-img-top" alt="...">
             <div class="price d-flex justify-content-center ">
@@ -126,7 +126,7 @@
           </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 22rem;">
           <div class="structure">
             <img src="../../assets/images/course-featured-image-01-480x298.jpg" class="card-img-top" alt="...">
             <div class="price d-flex justify-content-center ">
@@ -152,7 +152,7 @@
           </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 22rem;">
           <div class="structure">
             <img src="../../assets/images/stock-full-hd-05-480x298.jpg" class="card-img-top" alt="...">
             <div class="price d-flex justify-content-center ">
@@ -197,6 +197,11 @@
 
 @use '../../assets/scss/partials/variables' as *;
 
+.back-course{
+  background-color: $color-bg-curvo;
+  background: linear-gradient(to top, $color-bg-curvo, rgba(255, 255, 255, 0));
+  border-bottom-left-radius: 50% 80px;
+  border-bottom-right-radius: 50% 80px;
 .title{
       align-items: center;
       p{
@@ -220,20 +225,21 @@
 }
 
 .second-row{
-  margin-bottom: 50px,
+  margin-bottom: 40px,
 }
 
 .card {
   border: none;
+  width: auto;
   .structure {
     position: relative;
     img {
-      width: 370px;
+      width: 100%;
     }
     .price {
       position: absolute;
       top: 0px;
-      left: 370px;
+      left: 22rem;
       transform: translateX(-100%);
       background-color: $btn-green;
       height: 40px;
@@ -255,7 +261,7 @@
   .card-body{
     padding-left: 30px;
     h5{
-      margin-bottom: 30px;
+      margin-bottom: 20px;
       line-height: 35px;
       width: 300px;
     }
@@ -265,6 +271,7 @@
     }
     i{
       margin-right: 10px;
+      margin-bottom: 30px;
     }
     a.btn.padd {
       padding-left: 0px;
@@ -312,6 +319,7 @@
       margin-left: 10px;
     }
   }
+}
 }
 
 </style>

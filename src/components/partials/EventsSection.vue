@@ -134,7 +134,10 @@
         </div>
       </div>
     
-
+        <div class="events-bottom d-flex justify-content-center ">
+          <p>Exited about our event? </p>
+          <a href="#" class="btn">Get ticket<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
     </div>
   </section>
 </template>
@@ -146,6 +149,8 @@
 
 .back-events{
   background-color: $bg-white;
+  border-bottom-right-radius: 50% 430px;
+  height: 830px;
   .container{
     margin-top: 95px;
     .title{
@@ -203,6 +208,22 @@
         color: $bg-white;
         padding: 4px 30px;
         font-weight: $f-bold;
+      }
+    }
+  }
+  .events-bottom{
+    margin-top: 40px;
+    p{
+      margin-bottom: 0px;
+      color: $link-color;
+    }
+    a.btn{
+      padding: 0px;
+      color: $btn-green;
+      margin-left: 5px;
+      font-weight: $f-bold;
+      i{
+        margin-left: 5px;
       }
     }
   }

@@ -6,6 +6,7 @@ import Courses from './partials/Courses.vue';
 import PaceSection from './partials/PaceSection.vue';
 import MobileSection from './partials/MobileSection.vue';
 import EventsSection from './partials/EventsSection.vue'
+import LoveUs from './partials/LoveUs.vue';
 
   export default {
     components:{
@@ -16,6 +17,7 @@ import EventsSection from './partials/EventsSection.vue'
       PaceSection,
       MobileSection,
       EventsSection,
+      LoveUs,
     }
     
   }
@@ -30,6 +32,7 @@ import EventsSection from './partials/EventsSection.vue'
     <PaceSection />
     <MobileSection />
     <EventsSection />
+    <LoveUs />
 </template>
 
 
