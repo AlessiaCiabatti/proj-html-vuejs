@@ -48,7 +48,7 @@ import { store } from '../../assets/data/store';
           </ul>
         </div>
         <button type="button" class="btn btn-primary">
-          <span>Download free E-book</span>
+          <span>Get started for free</span>
         </button>
       </div>
 
@@ -56,8 +56,13 @@ import { store } from '../../assets/data/store';
         <div class="img-person">
           <img src="../../assets/images/home-5-image-01.png" alt="">
         </div>
+
         <div class="img-stain">
           <img src="../../assets/image2/underlay-shape-grey.svg" alt="">
+        </div>
+
+        <div class="img-pois">
+          <img src="../../assets/images/maxcoach-shape-05.png" alt="">
         </div>
       </div>
       
@@ -75,13 +80,12 @@ import { store } from '../../assets/data/store';
   .container{
     height: 740px;
     .my_bgone{
-      // background-color: red;
       width: 500px;
       .btn{
         background-color: $btn-green;
         border: none;
         height: 55px;
-        padding: 0 40px;
+        padding: 0 45px;
         margin-top: 20px;
         &:hover{
           background-color: #82e8d2;
@@ -89,7 +93,6 @@ import { store } from '../../assets/data/store';
         span{
           color: white;
           font-weight: 800;
-          margin-left: 15px;
         }
       }
       span.span{
@@ -106,7 +109,6 @@ import { store } from '../../assets/data/store';
       p{
         color: $color-p-hero;
         width: 400px;
-        font-size: 1.1rem;
       }
       ul{
         padding: 0px;
@@ -127,7 +129,9 @@ import { store } from '../../assets/data/store';
       .img-person {
         position: relative;
         z-index: 999;
-        margin-left: 50px;
+        // margin-left: 50px;
+        margin-right: 120px;
+        margin-top: 60px;
         img {
           max-width: 100%;
           height: auto;
@@ -135,12 +139,17 @@ import { store } from '../../assets/data/store';
       }
       .img-stain {
         position: absolute;
-        top: 100px;
-        right: 145px;
+        top: 190px;
+        right: 230px;
         z-index: 1;
         img {
-          height: 390px;
+          height: 450px;
         }
+      }
+      .img-pois{
+        position: absolute;
+        right: 50px;
+        top: 350px;
       }
     }
 }
