@@ -220,7 +220,7 @@
 }
 
 .second-row{
-  margin-bottom: 50px
+  margin-bottom: 50px,
 }
 
 .card {
@@ -232,7 +232,7 @@
     }
     .price {
       position: absolute;
-      top: 0pc;
+      top: 0px;
       left: 370px;
       transform: translateX(-100%);
       background-color: $btn-green;
@@ -299,7 +299,7 @@
     border: none;
     height: 55px;
     padding: 0 55px;
-    margin-bottom: 220px;
+    margin-bottom: 100px;
     &:hover{
       background-color: #82e8d2;
     }
