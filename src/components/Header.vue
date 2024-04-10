@@ -116,7 +116,7 @@ nav.navbar.navbar-expand-lg {
     color: $color-font;
   }
   .menu{
-    margin-left: 20px;
+    margin-left: 15px;
   }
   .fa-circle-user{
     margin-left: 10px;

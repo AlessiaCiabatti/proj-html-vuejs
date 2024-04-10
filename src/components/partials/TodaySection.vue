@@ -76,7 +76,7 @@
   .container{
     margin-top: 95px;
     .title{
-      margin-bottom: 115px;
+      margin-bottom: 80px;
       align-items: center;
       p{
         color: $font-bottom;

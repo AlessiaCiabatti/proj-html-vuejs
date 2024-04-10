@@ -15,7 +15,7 @@
       
       <div>
         <h2>
-          3.093&#43;
+          3.092&#43;
         </h2>
         <p>ENROLLED LEARNERS</p>
       </div>
@@ -52,7 +52,7 @@
     h2{
       color: $btn-green;
       font-weight: $f-bold;
-      font-size: 2.5rem;
+      font-size: 2.8rem;
     }
     p{
       color: $color-font;
