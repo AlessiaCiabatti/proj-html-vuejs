@@ -4,6 +4,7 @@ import StunningSection from './partials/StunningSection.vue';
 import Numbers from './partials/Numbers.vue';
 import Courses from './partials/Courses.vue';
 import PaceSection from './partials/PaceSection.vue';
+import MobileSection from './partials/MobileSection.vue';
 
   export default {
     components:{
@@ -12,6 +13,7 @@ import PaceSection from './partials/PaceSection.vue';
       Numbers,
       Courses,
       PaceSection,
+      MobileSection,
     }
     
   }
@@ -24,6 +26,7 @@ import PaceSection from './partials/PaceSection.vue';
     <Numbers />
     <Courses />
     <PaceSection />
+    <MobileSection />
 </template>
 
 
