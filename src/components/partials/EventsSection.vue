@@ -16,7 +16,7 @@
         </h2>
       </div>
 
-      <div class="row">
+      <div class="row mb-4">
         <div class="col-sm-6 mb-3 mb-sm-0">
           <div class="card">
             <div class="card-body d-flex justify-content-between ">
@@ -34,12 +34,101 @@
             </div>
           </div>
         </div>
+        
         <div class="col-sm-6">
           <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card-body d-flex justify-content-between ">
+              <div>
+                <a href="#" class="btn map"><i class="fa-solid fa-location-dot"></i>New York, US</a>
+                <h5 class="card-title">Painting Art Contest 2020</h5>
+              </div>
+
+              <div class="date-ticket text-center me-2">
+                <h2>10</h2>
+                <p>OCT</p>
+                <a href="#" class="btn btn-primary">Get ticket</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ---- -->
+
+      <div class="row mb-4">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body d-flex justify-content-between ">
+              <div>
+                <a href="#" class="btn map"><i class="fa-solid fa-location-dot"></i>Hamburg, Germany</a>
+                <h5 class="card-title">International Art Fair 2020</h5>
+              </div>
+
+              <div class="date-ticket text-center me-2">
+                <h2>23</h2>
+                <p>NOV</p>
+                <a href="#" class="btn btn-primary">Get ticket</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body d-flex justify-content-between ">
+              <div>
+                <a href="#" class="btn map"><i class="fa-solid fa-location-dot"></i>Illinois, US</a>
+                <h5 class="card-title">Street Performance: Call for Artist</h5>
+              </div>
+
+              <div class="date-ticket text-center me-2">
+                <h2>15</h2>
+                <p>DEC</p>
+                <a href="#" class="btn btn-primary">Get ticket</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ---- -->
+
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body d-flex justify-content-between ">
+              <div>
+                <a href="#" class="btn map"><i class="fa-solid fa-location-dot"></i>Illinois, US</a>
+                <h5 class="card-title">Custumer Food Safety Education Conference</h5>
+              </div>
+
+              <div class="date-ticket text-center me-2">
+                <h2>22</h2>
+                <p>JUL</p>
+                <a href="#" class="btn btn-primary">Get ticket</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body d-flex justify-content-between ">
+              <div>
+                <a href="#" class="btn map"><i class="fa-solid fa-location-dot"></i>Dubai</a>
+                <h5 class="card-title">How meditation improve your mental health?</h5>
+              </div>
+
+              <div class="date-ticket text-center me-2">
+                <h2>12</h2>
+                <p>AUG</p>
+                <a href="#" class="btn btn-primary">Get ticket</a>
+              </div>
+
             </div>
           </div>
         </div>
@@ -78,6 +167,7 @@
   }
   .card-body{
     background-color: $color-ticket;
+    border-radius: 5px;
     a, i{
       color: $link-color;
       font-size: 0.9rem;
@@ -89,6 +179,8 @@
     }
     h5{
       font-weight: bold;
+      font-size: 1.1rem;
+      width: 306px;
     }
     .date-ticket{
       height: 130px;
@@ -101,7 +193,7 @@
       }
       h2{
         color: $btn-green;
-        font-size: 2.5rem;
+        font-size: 2.7rem;
         margin-top: 5px;
       }
       a.btn-primary{
