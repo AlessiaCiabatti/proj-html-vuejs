@@ -16,7 +16,7 @@ import {store} from '../assets/data/store'
 
 
 <template>
-  <div class="container">
+  <div class="container mt-5 mb-5">
     <div class="d-flex">
       <div class="big">
         <h6>Address</h6>

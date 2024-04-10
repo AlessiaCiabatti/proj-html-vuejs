@@ -53,15 +53,21 @@
         
       </div>
 
-      <div class="d-flex flex-column align-items-center">
-        <p class="p-bottom">Start today for getting <span class="certification">Online Certification</span></p>
-        <h3>
-          You can be your guiding star with our help!
-        </h3>
-        <button type="button" class="btn btn-primary">
-          <span>Get started now</span>
-        </button>
-      </div>
+
+        <div class="d-flex flex-column align-items-center start">
+          <p class="p-bottom">Start today for getting <span class="certification">Online Certification</span></p>
+          <h2>
+            You can be your guiding star with our help!
+          </h2>
+          <button type="button" class="btn btn-primary">
+            <span>Get started now</span>
+          </button>
+          <div class="img-bottom">
+            <img src="../../assets/images/maxcoach-shape-02.png" alt="" class="circle">
+            <img src="../../assets/images/maxcoach-shape-01.png" alt="" class="lines">
+          </div>
+        </div>
+
 
     </div>
   </section>
@@ -73,6 +79,21 @@
 
 .back-loveus{
   background-color: $color-ticket;
+  .start{
+    position: relative;
+    .img-bottom{
+      .lines{
+        position: absolute;
+        left: 50px;
+        top: 160px;
+      }
+      .circle{
+        position: absolute;
+        right: 0px;
+        top: 160px;
+      }
+    }
+  }
   .p-bottom{
     color: $color-font;
     margin-top: 100px;
@@ -83,14 +104,14 @@
       font-weight: bold;
     }
   }
-  h3{
+  h2{
       color: $color-font;
       font-weight: bold;
     }
     button.btn.btn-primary{
     background-color: $btn-green;
     border: none;
-    padding: 10px 55px;
+    padding: 10px 65px;
     margin-top: 30px;
     margin-bottom: 100px;
     span{

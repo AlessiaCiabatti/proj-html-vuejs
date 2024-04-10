@@ -9,7 +9,7 @@
   <section class="back-events">
     <div class="container">
 
-      <div class="d-flex flex-column title">
+      <div class="d-flex flex-column title mb-5">
         <p>GET IN CONTACT NOW</p>
         <h2>
           Upcoming <span>Events</span>
@@ -136,7 +136,7 @@
     
         <div class="events-bottom d-flex justify-content-center ">
           <p>Exited about our event? </p>
-          <a href="#" class="btn">Get ticket<i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#" class="btn">View all events<i class="fa-solid fa-arrow-right"></i></a>
         </div>
     </div>
   </section>
